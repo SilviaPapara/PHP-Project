@@ -1,0 +1,45 @@
+.background {
+  background-image: url("images/fundal1.jpg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+}
+
+body {
+  font: 14px helvetica;
+  background: rgb(245, 246, 246);
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  padding: 20px;
+}
+.imgTest:hover {
+  opacity: 0.8;
+}
+
+.r {
+  float: right;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.background3 {
+  background-image: url("images/fundal1.jpg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
